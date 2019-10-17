@@ -1,0 +1,6 @@
+aws_region = "us-west-2"
+key_name = "YOUR KEY NAME"
+win_username = "Administrator"
+win_password = "myTempPassword123"
+# add your WAN IP in the whitelist
+ip_whitelist = ["127.0.0.1/32"]
