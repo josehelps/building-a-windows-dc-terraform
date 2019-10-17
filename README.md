@@ -4,9 +4,8 @@ Building a Windows 2016 Domain Controller using Ansible + Terrraform on AWS
 ## Running
 
 1. `git clone https://github.com/d1vious/building-a-windows-dc-terraform && cd building-a-windows-dc-terraform` clone project and cd into the project dir
-2. Customize any environment parameters necessary under `variables.tf`
-3. Setup your variables for your environment under `terraform.tfvars`, set your own password, and public IP in the whitelist
-4. Run `terraform init` and then `terraform apply`
+2. Setup your variables for your environment under [terraform.tfvars](https://github.com/d1vious/building-a-windows-dc-terraform/blob/master/terraform.tfvars.default), set your own password, and public IP in the whitelist
+3. Run `terraform init` and then `terraform apply`
 
 **make sure that you [configure](#configure) terraform first**
 
